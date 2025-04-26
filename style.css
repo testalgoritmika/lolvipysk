@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+}
+
+header{
+    background-color: maroon ;
+    padding: 20px;
+}
+header a{
+    text-decoration: none;
+    color:orange;
+}
+h1{
+    text-align: center;
+    color: maroon;
+}
+img{
+    width: 250px;
+    height: 240px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+}  
+a:hover{
+    color: hotpink;
+    
+    transition: all 0.5s linear;
+}
